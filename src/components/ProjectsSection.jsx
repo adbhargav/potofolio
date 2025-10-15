@@ -25,13 +25,7 @@ const projects = [
     link: 'https://vajrasolutions.tech/',
     github: 'https://github.com/adbhargav/vajrasolutions'
   },
-  {
-    title: 'Weather Chatbot',
-    description: 'Enter your city and get real-time temperature data using Node.js and Hugging Face NLP.',
-    tech: ['React', 'Node.js', 'HuggingFace'],
-    link: 'https://weather-chatbot-5l9x.vercel.app/',
-    github: 'https://github.com/adbhargav/Weather_Chatbot'
-  },
+  
   {
     title: 'ABS Academy',
     description: 'User-friendly educational website featuring interactive course pages and responsive design.',
@@ -82,7 +76,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="text-cyan-400 hover:text-cyan-300 transition"
                 >
-                  GitHub
+                  
                 </a>
               </div>
             </div>
