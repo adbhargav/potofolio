@@ -58,13 +58,8 @@ const Footer = () => {
             >
               <i className="fab fa-linkedin"></i>
             </a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-white transition"
-            >
-              <i className="fab fa-twitter"></i>
+          
+              
             </a>
           </div>
         </div>
