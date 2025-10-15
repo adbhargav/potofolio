@@ -1,4 +1,3 @@
-// src/components/About.jsx
 import React from 'react';
 
 const About = () => {
@@ -11,13 +10,13 @@ const About = () => {
         👨‍💻 About Me
       </h2>
 
-      <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Profile Image */}
         <div className="flex justify-center">
           <img
-            src="bhargav.jpg" // 👉 Place a profile image in `public/`
-            alt="Profile"
-            className="rounded-2xl shadow-2xl w-64 h-64 object-cover"
+            src="bhargav.jpg" // 👉 Place your profile image inside `public/`
+            alt="Bhargav"
+            className="rounded-2xl shadow-2xl w-64 h-64 object-cover border-2 border-blue-500 hover:scale-105 transition-transform duration-300"
           />
         </div>
 
@@ -25,17 +24,30 @@ const About = () => {
         <div>
           <p className="text-lg text-gray-300 leading-relaxed">
             Hey! I'm <span className="text-blue-400 font-semibold">Bhargav</span>, a
-            front-end developer with a passion for building beautiful and
-            responsive web interfaces. My journey started with curiosity and
-            grew into a love for <span className="text-pink-400">clean design</span>,
-            <span className="text-yellow-300"> interactive components</span>, and
-            <span className="text-green-400"> user-centric development</span>.
+            passionate <span className="text-pink-400 font-semibold">MERN Stack Developer</span> who loves
+            crafting modern, scalable, and user-friendly web applications.
+            I enjoy turning complex problems into elegant digital solutions using
+            <span className="text-green-400"> MongoDB</span>, 
+            <span className="text-yellow-300"> Express</span>, 
+            <span className="text-blue-400"> React</span>, and 
+            <span className="text-purple-400"> Node.js</span>.
           </p>
+
           <br />
-          <p className="text-gray-400">
-            I'm currently exploring React, Tailwind, Firebase, and constantly
-            sharpening my skills by working on side projects and internships.
-            When I’m not coding, I enjoy gaming and watching tech videos!
+
+          <p className="text-gray-400 leading-relaxed">
+            I’ve built and deployed several projects like the 
+            <span className="text-cyan-400"> AI Club RGMCET Website</span>,
+            <span className="text-cyan-400"> Pixel</span>, and 
+            <span className="text-cyan-400"> Vajra Solutions</span>,
+            where I worked on full-stack functionalities, cloud integration, and UI/UX improvements.
+          </p>
+
+          <br />
+
+          <p className="text-gray-400 leading-relaxed">
+            I'm always exploring new technologies, optimizing performance, and improving design workflows.
+            When I’m not coding, I love gaming, exploring AI tools, and watching tech videos to stay inspired.
           </p>
         </div>
       </div>
