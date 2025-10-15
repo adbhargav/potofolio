@@ -4,7 +4,7 @@ const ResumeButton = () => {
   return (
     <div className="mt-6">
       <a
-        href="/resume.pdf" // 📄 Replace this with your actual resume path
+        href="/resume Andhe.pdf" // 📄 Replace this with your actual resume path
         target="_blank"
         rel="noopener noreferrer"
         download
