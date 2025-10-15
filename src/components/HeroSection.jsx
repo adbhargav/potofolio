@@ -16,8 +16,9 @@ const HeroSection = () => {
         Hi, I’m <span className="text-blue-500 drop-shadow-md animate-glow">Bhargav</span>
       </h1>
 
+      {/* Updated Tagline */}
       <p className="text-lg md:text-2xl text-gray-300 mb-8 animate-fadeInUp delay-100">
-        A passionate <span className="text-pink-400 font-semibold">Front-End Developer</span> crafting stunning UIs.
+        A passionate <span className="text-pink-400 font-semibold">MERN Stack Developer</span> crafting scalable, intelligent, and stunning web applications.
       </p>
 
       {/* CTA Buttons */}
