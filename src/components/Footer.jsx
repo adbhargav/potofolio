@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white py-10 px-6 md:px-12 font-sans border-t border-gray-700">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 text-center md:text-left">
-        
+
         {/* Logo & About */}
         <div className="flex flex-col items-center md:items-start space-y-2">
           <h1 className="text-2xl font-bold text-blue-500 animate-pulse">Bhargav</h1>
@@ -39,35 +39,8 @@ const Footer = () => {
         </div>
 
         {/* Social Links */}
-        <div className="space-y-3">
-          <h2 className="text-lg font-semibold text-white">Follow Me</h2>
-          <div className="flex justify-center md:justify-start gap-4 text-xl text-gray-400">
-            <a
-              href="https://github.com/adbhargav"
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-white transition"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/bhargav-andhe-13734232a/"
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-white transition"
-            >
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-white transition"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-          </div>
-        </div>
+
+
       </div>
 
       {/* Bottom */}
